@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" 7.Start flask service that does something. """
+""" 7. Start flask service that does something. """
 
 from flask import Flask
 from flask import render_template
 
 
 app = Flask(__name__)
-app.url_map.sgtrict_slashes = False
+app.url_map.strict_slashes = False
 
 
 #@app.route()
